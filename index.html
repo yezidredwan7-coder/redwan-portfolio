@@ -219,6 +219,42 @@
        target="_blank">
       📍 በGoogle Maps ላይ ይመልከቱ
     </a>
+    <form onsubmit="sendWhatsApp(); return false;">
+
+  <input type="text" id="name"
+         placeholder="ስምዎን ያስገቡ"
+         required>
+
+  <br><br>
+
+  <textarea id="message"
+            placeholder="የሚፈልጉትን አገልግሎት ይጻፉ"
+            required></textarea>
+
+  <br><br>
+
+  <button type="submit">
+    💬 WhatsApp ላይ ይላኩ
+  </button>
+
+</form>
+
+<script>
+function sendWhatsApp() {
+  var name = document.getElementById("name").value;
+  var message = document.getElementById("message").value;
+
+  var text =
+    "ሰላም Redeagle፣%0A" +
+    "ስም፦ " + name + "%0A" +
+    "መልዕክት፦ " + message;
+
+  window.open(
+    "https://wa.me/251953498028?text=" + text,
+    "_blank"
+  );
+}
+</script>
   </p>
 </section>
 
