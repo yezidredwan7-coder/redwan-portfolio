@@ -381,83 +381,57 @@
   </div>
 </section>
   
-<section class="contact" style="background:#f4f6f8;">
+<section class="contact" id="contact">
 
-  <h2>⭐ ለምን REDEAGLE?</h2>
+  <h2>📞 Redeagle የኤሌክትሪክ ስራ ያግኙን</h2>
 
-  <div class="cards">
+  <p>
+    <strong>📍 አድራሻ፦</strong>
+    ቤተል 40 ሜትር፣ Addis Ababa
+  </p>
 
-    <div class="card">
-      <div class="icon">🛠️</div>
-      <h3>ጥራት ያለው ስራ</h3>
-      <p>የኤሌክትሪክ ስራዎችን በጥንቃቄና በጥራት እንሰራለን።</p>
-    </div>
+  <p>
+    በቤተል 40 ሜትር የቤት፣ የቢሮ እና የንግድ ቦታ
+    የኤሌክትሪክ ጥገናና መጫኛ አገልግሎት እንሰጣለን።
+  </p>
 
-    <div class="card">
-      <div class="icon">⚡</div>
-      <h3>ፈጣን አገልግሎት</h3>
-      <p>የኤሌክትሪክ ችግርዎን በፍጥነት ለመፍታት እንሞክራለን።</p>
-    </div>
-
-    <div class="card">
-      <div class="icon">🤝</div>
-      <h3>እምነት የሚጣልበት</h3>
-      <p>ለደንበኞቻችን ታማኝና አስተማማኝ አገልግሎት እንሰጣለን።</p>
-    </div>
-
-  </div>
-
-</section>
-  <section class="reviews">
-  <h2>⭐ ደንበኞቻችን ስለእኛ ምን ይላሉ?</h2>
-
-  <div class="review-card">
-    <div class="review-stars">★★★★★</div>
-    <p>የደንበኛ አስተያየት እዚህ ይጻፋል።</p>
-    <strong>— የደንበኛ ስም</strong>
-  </div>
-
-  <div class="review-card">
-    <div class="review-stars">★★★★★</div>
-    <p>የደንበኛ አስተያየት እዚህ ይጻፋል።</p>
-    <strong>— የደንበኛ ስም</strong>
-  </div>
-</section>
-  <section class="contact" id="contact">
-  <h2>📞 አግኙን</h2>
-
-  <p><strong>አድራሻ፦</strong> 📍 ቤተል 40 ሜትር</p>
-
-  <p>ለአገልግሎት ወይም ለጥያቄ ይደውሉልን።</p>
-
-  <p><strong>ስልክ፦</strong> 0939994504</p>
+  <p>
+    <strong>📞 ስልክ፦</strong>
+    <a href="tel:0939994504">0939994504</a>
+  </p>
 
   <p>
     <a href="https://www.google.com/maps/search/?api=1&query=Bethel+40+Meter+Addis+Ababa"
-       target="_blank">
+       target="_blank"
+       rel="noopener">
       📍 በGoogle Maps ላይ ይመልከቱ
     </a>
-    <form onsubmit="sendWhatsApp(); return false;">
+  </p>
 
-  <input type="text" id="name"
-         placeholder="ስምዎን ያስገቡ"
-         required>
+  <h3>💬 WhatsApp ላይ መልዕክት ይላኩ</h3>
 
-  <br><br>
+  <form onsubmit="sendWhatsApp(); return false;">
 
-  <textarea id="message"
-            placeholder="የሚፈልጉትን አገልግሎት ይጻፉ"
-            required></textarea>
+    <input type="text"
+           id="name"
+           placeholder="ስምዎን ያስገቡ"
+           required>
 
-  <br><br>
+    <br><br>
 
-  <button type="submit">
-    💬 WhatsApp ላይ ይላኩ
-  </button>
+    <textarea id="message"
+              placeholder="የሚፈልጉትን የኤሌክትሪክ ስራ ይጻፉ"
+              required></textarea>
 
-</form>
+    <br><br>
 
-<script>
+    <button type="submit">
+      💬 WhatsApp ላይ ይላኩ
+    </button>
+
+  </form>
+
+</section>
 function sendWhatsApp() {
   var name = document.getElementById("name").value;
   var message = document.getElementById("message").value;
