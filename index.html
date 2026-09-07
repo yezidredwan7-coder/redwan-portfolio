@@ -156,13 +156,18 @@ nav a:hover {
 }
 
 .card {
-  background: white;
+  background: linear-gradient(145deg, #ffffff, #f8f8f8);
   width: 280px;
-  padding: 30px 20px;
-  border-radius: 18px;
-  box-shadow: 0 6px 20px rgba(0,0,0,.10);
-  border-top: 4px solid #f5b400;
-  transition: .25s;
+  padding: 32px 20px;
+  border-radius: 22px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.14);
+  border: 2px solid #f5b400;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0,0,0,.20);
 }
 
 .card:hover {
