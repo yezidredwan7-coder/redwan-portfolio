@@ -581,6 +581,53 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+  header {
+  position: relative;
+  overflow: hidden;
+  padding: 35px 20px 30px;
+  background: linear-gradient(135deg, #080808, #181818);
+  border-bottom: 2px solid #f5b400;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px solid rgba(245,180,0,.15);
+  top: -120px;
+  left: -80px;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid rgba(245,180,0,.12);
+  bottom: -100px;
+  right: -60px;
+}
+
+header h1,
+header p,
+header nav,
+.logo {
+  position: relative;
+  z-index: 2;
+}
+
+header p {
+  font-size: 17px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+header nav {
+  margin-top: 20px;
+}
 </style>
 </head>
 
