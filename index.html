@@ -479,6 +479,57 @@ footer {
   font-weight: bold;
   margin-top: 20px;
 }
+  .why-us {
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-us h2 {
+  color: #f5b400;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.why-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.why-card {
+  background: #151515;
+  border: 1px solid #f5b400;
+  border-radius: 16px;
+  padding: 25px 18px;
+  box-shadow: 0 0 15px rgba(245,180,0,.12);
+}
+
+.why-icon {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.why-card h3 {
+  color: #f5b400;
+  font-size: 21px;
+  margin: 8px 0;
+}
+
+.why-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 
@@ -647,6 +698,39 @@ footer {
   <p>⏰ ከጠዋቱ 2:00 – ከምሽቱ 2:00</p>
 
   <p>📞 አስቸኳይ ጥገና ካስፈለገዎት ይደውሉልን</p>
+
+</section>
+  <section class="why-us">
+
+  <h2>🏆 ለምን REDEAGLE?</h2>
+
+  <div class="why-grid">
+
+    <div class="why-card">
+      <div class="why-icon">⚡</div>
+      <h3>ፈጣን አገልግሎት</h3>
+      <p>በፍጥነት መጥተን ችግርዎን ለመፍታት እንሰራለን።</p>
+    </div>
+
+    <div class="why-card">
+      <div class="why-icon">🔧</div>
+      <h3>ሙያዊ ጥገና</h3>
+      <p>የኤሌክትሪክና የቤት እቃዎችን ጥገና በጥንቃቄ እንሰራለን።</p>
+    </div>
+
+    <div class="why-card">
+      <div class="why-icon">🤝</div>
+      <h3>ታማኝ አገልግሎት</h3>
+      <p>ደንበኞቻችንን በታማኝነትና በአክብሮት እናገለግላለን።</p>
+    </div>
+
+    <div class="why-card">
+      <div class="why-icon">⭐</div>
+      <h3>ጥራት ያለው ስራ</h3>
+      <p>ጥራትን እና የደንበኛ እርካታን ቅድሚያ እንሰጣለን።</p>
+    </div>
+
+  </div>
 
 </section>
 <section class="contact" id="contact">
