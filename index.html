@@ -530,6 +530,57 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+  .trust {
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trust h2 {
+  color: #f5b400;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.trust-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.trust-card {
+  background: #151515;
+  border: 1px solid #f5b400;
+  border-radius: 16px;
+  padding: 25px 18px;
+  box-shadow: 0 0 15px rgba(245,180,0,.12);
+}
+
+.trust-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.trust-card h3 {
+  color: #f5b400;
+  font-size: 21px;
+  margin: 8px 0;
+}
+
+.trust-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 
@@ -728,6 +779,33 @@ footer {
       <div class="why-icon">⭐</div>
       <h3>ጥራት ያለው ስራ</h3>
       <p>ጥራትን እና የደንበኛ እርካታን ቅድሚያ እንሰጣለን።</p>
+    </div>
+
+  </div>
+
+</section>
+  <section class="trust">
+
+  <h2>⭐ ለምን በእኛ ይተማመናሉ?</h2>
+
+  <div class="trust-grid">
+
+    <div class="trust-card">
+      <div class="trust-icon">🛠️</div>
+      <h3>ልምድ</h3>
+      <p>የኤሌክትሪክና የቤት እቃዎች ጥገና ላይ በጥንቃቄ እንሰራለን።</p>
+    </div>
+
+    <div class="trust-card">
+      <div class="trust-icon">🤝</div>
+      <h3>ታማኝነት</h3>
+      <p>የደንበኛ እምነትና እርካታ ለእኛ በጣም አስፈላጊ ነው።</p>
+    </div>
+
+    <div class="trust-card">
+      <div class="trust-icon">⚡</div>
+      <h3>ፈጣን አገልግሎት</h3>
+      <p>ችግርዎን በፍጥነት ለመፍታት እንጥራለን።</p>
     </div>
 
   </div>
